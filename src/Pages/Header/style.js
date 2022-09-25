@@ -22,6 +22,7 @@ export const Wrapper = styled.div`
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    position: relative;
 
     h2{ 
         margin-block: auto;
@@ -62,35 +63,6 @@ export const NavWrapper = styled.div`
 
     @media screen and (max-width:50em){
         justify-content: flex-end;
-    }
-`;
-
-export const Menu = styled.button`
-    display: none;
-    border: none;
-    cursor: pointer;
-    position: relative;
-
-    @media screen and (max-width:50em){
-        display: initial;
-    }
-
-    ::after,
-    ::before{
-        content: '';
-        width: 30px;
-        border: 3px solid var(--bg-five);
-        display: block;
-        position: absolute;
-        right: 0;
-    }
-
-    ::after{
-        bottom: 0.4em;
-    }
-
-    span{
-        display: none;
     }
 `;
 

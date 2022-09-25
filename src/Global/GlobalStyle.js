@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     :root{
         /* Font Color */
         --clr-one: #373737;
+        --clr-two: #FFFFFF;
         /* Font-Family */
         --ff-primary: 'Montserrat', sans-serif; /* Montserrat => Hurme Geometric */
         --ff-footer: 'Roboto', sans-serif;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const List = styled.ul`
     display: flex;
-    gap: clamp(1rem, 1.5vw, 2rem);
+    gap: clamp(1.5rem, 1.5vw, 2rem);
     list-style: none;
 
     a{
@@ -21,11 +21,46 @@ export const List = styled.ul`
     }
 
     @media screen and (max-width:50em){
-        display: none;
-        /* flex-direction: column; */
+        /* display: none; */
+        flex-direction: column;
+        align-items: center;
+
+        a{  
+            padding: 0;
+            text-align: center;
+        }
 
         a:where(:hover, :focus){
             outline: none;
         }
+    }
+`;
+
+export const Burguer = styled.button`
+    display: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+
+    @media screen and (max-width:50em){
+        display: initial;
+    }
+
+    ::after,
+    ::before{
+        content: '';
+        width: 30px;
+        border: 3px solid var(--bg-five);
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    ::after{
+        bottom: 0.4em;
+    }
+
+    span{
+        display: none;
     }
 `;
