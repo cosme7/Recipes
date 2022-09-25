@@ -4,6 +4,7 @@ export const Container = styled.h3`
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 1.4rem;
     padding: 10px;
     color: #373737;
     font-family: 'Montserrat', sans-serif;
