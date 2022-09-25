@@ -22,7 +22,6 @@ export const Wrapper = styled.div`
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    position: relative;
 
     h2{ 
         margin-block: auto;

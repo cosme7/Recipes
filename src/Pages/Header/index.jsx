@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from "../../Assets/header_00.svg"
-import NavBar from '../../Components/NavBar';
+import {HeaderNav} from '../../Components/Navigation/index';
 
 import * as S from "./style"
 
@@ -12,8 +12,7 @@ export default function Footer() {
                 <S.Wrapper>
                     <S.NavWrapper>
                         <img src={Logo} alt="RC Logo" title="RC Logo" />
-
-                        <NavBar />
+                        <HeaderNav />
                     </S.NavWrapper>
                      <h2>Recipes</h2>
                 </S.Wrapper>
