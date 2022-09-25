@@ -1,14 +1,15 @@
 import React from "react";
 import {GlobalStyle} from "./Global/GlobalStyle"
-
-import Main from "./components/Main";
+import {Header, Footer} from "./Pages/index"
+import Main from "./Components/Main";
 
 export default function App() {
   return (
     <>
-
-      <Main/>
       <GlobalStyle />
+      <Header />
+      <Main/>
+      <Footer />
     </>  
   );
 }
