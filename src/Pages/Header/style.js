@@ -46,7 +46,7 @@ export const Wrapper = styled.div`
         }
 
         h2{
-            margin-block: 20rem auto;
+            margin-block: 10rem auto;
             padding: 0;
         }
     }

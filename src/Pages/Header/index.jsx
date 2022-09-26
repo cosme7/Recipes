@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from "../../Assets/header_00.svg"
-import {HeaderNav} from '../../components/Navigation/index';
+import {HeaderNav} from '../../Components/Navigation/index';
 
 import * as S from "./style"
 

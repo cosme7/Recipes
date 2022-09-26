@@ -32,7 +32,7 @@ export const List = styled.ul`
         padding: 1em 2em;
         font-size: clamp(1rem, 1.3vw, 1.5rem);
         font-family: var(--ff-primary);
-        font-weight: var(--fw-600);
+        font-weight: var(--fw-400);
         letter-spacing: 2px;
         color: var(--clr-one);
         text-transform: uppercase;

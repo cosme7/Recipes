@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
         /* Font Color */
         --clr-one: #373737;
         --clr-two: #FFFFFF;
+        --clr-input: #707070;
         /* Font-Family */
         --ff-primary: 'Montserrat', sans-serif; /* Montserrat => Hurme Geometric */
         --ff-footer: 'Roboto', sans-serif;
@@ -25,5 +26,6 @@ export const GlobalStyle = createGlobalStyle`
         --bg-three: #DFE4DE;
         --bg-four: #446061;
         --bg-five: #373737;
+        --bg-input: #EFF1EE;
     }
 `;

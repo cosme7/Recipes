@@ -10,7 +10,7 @@ export const List = styled.ul`
         padding: 1em 2em;
         font-size: clamp(1rem, 1.3vw, 1.5rem);
         font-family: var(--ff-primary);
-        font-weight: var(--fw-600);
+        font-weight: var(--fw-400);
         letter-spacing: 2px;
         color: var(--clr-one);
         text-transform: uppercase;
@@ -26,7 +26,7 @@ export const List = styled.ul`
     }
 `;
 
-// Mobile Menu // 
+// Hamburger // 
 export const Burger = styled.button`
     display: none;
     border: none;
@@ -52,11 +52,13 @@ export const Burger = styled.button`
 
     ::before{
         transform: ${({open}) => open ? 'rotate(0)' : 'rotate(45deg)'};
+        border: 3px solid ${({open}) => open ? 'var(--bg-five)' : 'var(--bg-one)'};
     }
     
     ::after{    
         bottom: 0.4em;
         transform: ${({open}) => open ? 'rotate(0)' : 'rotate(-45deg)'};
+        border: 3px solid ${({open}) => open ? 'var(--bg-five)' : 'var(--bg-one)'};
     }
 
     span{
@@ -73,6 +75,19 @@ export const Mobile = styled.ul`
     gap: clamp(1.5rem, 1.5vw, 2rem);
     list-style: none;
     background-color: var(--bg-one);
+    box-shadow: 0 0 0.75em rgb(0, 0, 0, 0.2), 0 0 0 100vmax rgb(0, 0, 0, 0.5);
+
+    @media screen and (max-width:50em){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: ${({open}) => open ? 'scale(1,0)' : 'scale(1)'};
+        transform-origin: top;
+        transition: transform 0.5s ease-in-out;
+        position: fixed;
+        top: 5rem;
+        left: 10%;
+    }
 
     li{
         width: 100%;
@@ -91,23 +106,11 @@ export const Mobile = styled.ul`
     a{
         font-size: clamp(1rem, 1.3vw, 1.5rem);
         font-family: var(--ff-primary);
-        font-weight: var(--fw-600);
+        font-weight: var(--fw-400);
         letter-spacing: 2px;
         color: var(--clr-one);
         text-transform: uppercase;
         text-decoration: none;
         text-align: center;
-    }
-
-    @media screen and (max-width:50em){
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transform: ${({open}) => open ? 'scale(1,0)' : 'scale(1)'};
-        transform-origin: top;
-        transition: transform 0.5s ease-in-out;
-        position: fixed;
-        top: 5rem;
-        left: 10%;
     }
 `;
