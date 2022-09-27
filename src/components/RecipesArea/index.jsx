@@ -11,7 +11,7 @@ import Card from '../Card';
 
 export default function RecipesArea() {
     return(
-        <C.Container>
+        <C.Container id="recipes">
             <Title title={`latest recipes`}/>
             <C.AreaCards>
                 <Card image={Cake} title={`Red Velvet Cake`}/>

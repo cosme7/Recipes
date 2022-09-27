@@ -5,7 +5,7 @@ import Title from '../Title';
 
 export default function AboutArea() {
     return(
-        <Container>
+        <Container id="about">
             <img src={AboutImage} alt="spoon"/>
             <div className='about--content'>
                 <Title title="About"/>
