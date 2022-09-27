@@ -12,7 +12,7 @@ export const AreaCards = styled.div`
     justify-content: space-evenly;
     gap: 20px;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 50em){
         flex-direction: column;
         align-items: center;
     }

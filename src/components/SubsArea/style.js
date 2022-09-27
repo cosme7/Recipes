@@ -70,6 +70,7 @@ export const Form = styled.form`
         color: var(--clr-one);
         background-color: var(--bg-three);
         text-transform: uppercase;
+        cursor: pointer;
     }
 
     @media screen and (max-width:40em){

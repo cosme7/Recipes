@@ -16,17 +16,18 @@ export const Container = styled.section`
 
 export const Wrapper = styled.div`
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vw;
     background-image: url(${Background});
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: 70%;
     display: flex;
     flex-direction: column;
 
     h2{ 
         margin-block: auto;
-        padding-top: 2rem;
-        font-size: clamp(2.2rem, 9vw, 10rem);
+        padding-bottom: 6rem;
+        font-size: clamp(2.2rem, 8vw, 10rem);
         font-family: var(--ff-primary);
         font-weight: var(--fw-600);
         letter-spacing: 5px;
