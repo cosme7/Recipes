@@ -31,7 +31,7 @@ export const Burger = styled.button`
     display: none;
     border: none;
     cursor: pointer;
-    position: relative;
+    position: fixed;
     z-index: 9999;
 
     @media screen and (max-width:50em){
