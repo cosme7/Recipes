@@ -17,9 +17,9 @@ export default function index(){
             </S.Social>
             <nav>
                 <S.List>
-                    <li><a href="https://www.youtube.com/watch?v=y6120QOlsfU" target="_blank" rel="noreferrer">About</a></li> 
-                    <li><a href="https://www.youtube.com/watch?v=4qwKCQ4M2Nw" target="_blank" rel="noreferrer">Recipes</a></li> 
-                    <li><a href="https://www.youtube.com/watch?v=Btn9ND11v44" target="_blank" rel="noreferrer">Subscribe</a></li> 
+                    <li><a href="#about" rel="noreferrer">About</a></li> 
+                    <li><a href="#recipes" rel="noreferrer">Recipes</a></li> 
+                    <li><a href="#subscribe" rel="noreferrer">Subscribe</a></li>  
                 </S.List>
             </nav>
         </S.Wrapper>   
