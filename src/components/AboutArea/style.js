@@ -5,17 +5,15 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
 
     img {
         width: 50%;
-        /* min-width: 440px; */
     }
 
     .about--content {
          width: 100%;
          padding: 30px 0.5rem;
-    //   min-width: 320px;
 
         p {
             padding: 20px 5px;
@@ -23,7 +21,7 @@ export const Container = styled.div`
             max-width: 52ch;
             font-family: var(--ff-primary);
             font-size: 0.8rem;
-            font-size: clamp(0.8rem, 2vw, 1.2rem);
+            font-size: clamp(0.8rem, 1.2vw, 1.5rem);
         }
     }
 
@@ -32,10 +30,6 @@ export const Container = styled.div`
 
         img {
             width: 100%;
-        }
-
-        .about--content {
-        //    min-width: 350px;
         }
     }
 `;

@@ -12,8 +12,8 @@ export default function index(){
             <S.Social>
                 <a href="https://www.youtube.com/watch?v=dv13gl0a-FA" target="_blank" rel="noreferrer"><img src={Instagram} alt="Instagram" /></a>
                 <a href="https://www.youtube.com/watch?v=9jK-NcRmVcw" target="_blank" rel="noreferrer"><img src={Twitter} alt="Twitter" /></a>
-                <a href="https://www.youtube.com/watch?v=nDhSMDEpeZA" target="_blank" rel="noreferrer"><img src={Facebook} alt="Facebook" /></a>
-                <a href="https://www.youtube.com/watch?v=SfUUY5NpTdo" target="_blank" rel="noreferrer"><img src={Pinterest} alt="Pinterest" /></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer"><img src={Facebook} alt="Facebook" /></a>
+                <a href="https://www.youtube.com/watch?v=KIdFeby__VQ" target="_blank" rel="noreferrer"><img src={Pinterest} alt="Pinterest" /></a>
             </S.Social>
             <nav>
                 <S.List>

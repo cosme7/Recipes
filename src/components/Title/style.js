@@ -4,7 +4,6 @@ export const Container = styled.h3`
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-//    font-size: 1.4rem;
     font-size: clamp(1.5rem, 3vw, 2rem);
     padding: 10px;
     color: #373737;
